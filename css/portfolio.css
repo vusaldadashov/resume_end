@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    border:0;
+    padding: 0;
+}
+
+div.play{
+    width:33%;
+    float: left;
+    text-align: center;
+}
+div.pause{
+    width:33%;
+    float: left;
+    text-align: center;
+}
+div.change{
+    width:33%;
+    float: left;
+    text-align: center;
+}
+div.header{
+    padding-top: 30px;
+}
+.header i:hover{
+    cursor: pointer;
+}
+.mountains{
+    margin-left: 150px;
+    width: 1200px;
+    overflow: hidden;
+}
+.mountain_self{
+    width:1200px;
+}
+.train{
+    position: absolute;
+    top:400px;
+    left: 200px;
+    width:550px;
+}
+.shadow {
+    width: 1200px;
+    height: 143px;
+    position: absolute;
+    top:440px;
+}
+#shadow2{
+    left: 1349px;
+}
+.train_shadow{
+    position: absolute;
+    top:600px;
+    width:550px;
+    left:200px;
+}
+.ocean1{
+    width:1200px;
+}
+.ocean2{
+    width:1200px;
+    display: none;
+}

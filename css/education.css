@@ -1,0 +1,92 @@
+.education{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    height: 600px;
+    opacity: 0;
+    transform: translateX(0px);
+    transition: 1.5s all ease-in-out ;
+}
+.appear {
+    opacity: 1;
+    transform: translateX(120px);
+}
+.main_block_school{
+    width:350px;
+    height:100px ;
+    background-color: #353541;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left:15px ;
+    text-align: center;
+}
+.edu_level{
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+.edu_name{
+    margin: 0;
+    font-size: 18px;
+    color: seashell;
+}
+.edu_time{
+    margin: 0;
+    font-size: 18px;
+    color: #fb6470 ;
+    font-family: 'Raleway Medium',sans-serif;
+}
+.edu_block_left {
+    float: left;
+    width:380px;
+}
+.eduline{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    width:30px;
+}
+.eduline img {
+    height: 400px ;
+}
+.edu_block_right{
+    float: left;
+}
+.language_school{
+    margin-top: 130px;
+    float: left;
+}
+.university{
+    margin-top:100px ;
+    float: left;
+}
+.school{
+    float: left;
+}
+.ledge1{
+    width:30px;
+    float: left;
+    margin-top: 15px;
+}
+.ledge11{
+    margin-top: 150px;
+}
+.ledge2{
+    width:30px;
+    float: left;
+    margin-top: 160px;
+}
+.edu_context1{
+    opacity: 0.1;
+    transform: translateY(30px);
+    transition: 3s all ease-in-out ;
+}
+.edu_context2{
+    opacity: 0.1;
+    transform: translateY(30px);
+    transition: 3s all ease-in-out ;
+}
+.edu_context-appear{
+    opacity: 1;
+    transform: translateY(0px);
+}

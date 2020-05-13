@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resume</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="education.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://kit.fontawesome.com/0a81482c91.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body onload="make()">
+    <div class="left" id="left">
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Image">
+            <h2 class="name">Vusal Dadashov</h2>
+            <h3 class="job">Web Developer</h3>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a onclick="move('about')">About Me</a></li>
+                <li><a href="#edu">Education</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <div class="header" id="header">
+            <a onclick="hideMenu()" class="menu_button">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div class="secondHeader">
+                <h1 class="slogan">Lets Make Something Great</h1>
+                <p class="aboutText">I’m an Back-End developer that prides ourself on being strategic brand partners and awesome product providers</p>
+                <button class="hireMe"><a href="#contact">Hire Me!</a></button>
+            </div>
+        </div>
+        <!--About-->
+        <a name="about"></a>
+        <div class="aboutMe" id="about">
+            <div class="details">
+                <div class="details_block1">
+                    <h1 class="head">About Me</h1>
+                    <div class="redline"></div>
+                    <p class="shortText">Lorem ipsum dolor sit amet, ectetuer nonummy nibh euismod tincidunt ut laoreet  magna  laoreet  aliquam erat volutpat.</p>
+                </div>
+                <div class="details_block2">
+                    <ul class="details_block2_list">
+                        <li><strong>Name Surname</strong> : Vusal Dadashov</li>
+                        <li><strong>Age</strong> : 21</li>
+                        <li><strong>Email</strong> : vusaldadashov99@gmail.com</li>
+                        <li><strong>Web</strong> : vsldadashov.com</li>
+                        <li class="buglist"><strong>Address</strong> : 24,Golden Street,New</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="photo">
+                <img src="20191026_121833.webp" alt="Picture" class="big_photo">
+            </div>
+        </div>
+        <!--End-->
+
+ <!--Work-->
+        <a name="work"></a>
+        <div class="workExperience">
+            <div class="headers_block">
+                <h1 class="head">Work Experience</h1>
+                <div class="redline"></div>
+            </div>
+            <div class="work_block2">
+                <h1 class="head">This section will be updated in near future! :)</h1>
+            </div>
+        </div>
+        <!--End-->
+
+<!--Education Begin-->
+        <a name="edu"></a>
+        <div class="education">
+            <div class="headers_block">
+                <h1 class="head">Education</h1>
+                <div class="redline"></div>
+            </div>
+            <div class="edu_block_left">
+                <div class="edu_context1">
+                    <div class="main_block_school school">
+                        <h2 class="edu_level">School</h2>
+                        <h2 class="edu_name"><a target="_blanked" href="https://www.facebook.com/alpan.mektebi/">@Kuba region Alpan village school</a></h2>
+                        <h2 class="edu_time">Sep 2005 - May 2016</h2>
+                    </div>
+                    <img src="ledge1.jpg" alt="ledge" class="ledge1">
+                    <div class="main_block_school language_school">
+                        <h2 class="edu_level">Language School</h2>
+                        <h2 class="edu_name">@Qafqaz University</h2>
+                        <h2 class="edu_time">Sep 2016 - June 2017</h2>
+                    </div>
+                    <img src="ledge1.jpg" alt="ledge" class="ledge1 ledge11">
+                </div>
+            </div>
+            <div class="eduline">
+               <img src="line.png" alt="line">
+            </div>
+            <div class="edu_block_right">
+                <div class="edu_context2">
+                    <img src="ledge2.jpg" alt="ledge" class="ledge2">
+                    <div class="main_block_school university">
+                        <h2 class="edu_level">Bachelor Degree</h2>
+                        <h2 class="edu_name"><a target="_blanked" href="http://www.beu.edu.az/az">@Baku Engineering University</a></h2>
+                        <h2 class="edu_time">Sep 2017 - June 2021</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+           <!--End-->
+<!--Skills-->
+        <a name="skills"></a>
+        <div class="skills">
+            <div class="skills-context">
+                <div class="headers_block">
+                    <h1 class="head">My Skills</h1>
+                    <div class="redline"></div>
+                </div>
+                <div class="skills_block_left">
+                    <div class="skills_content">
+                        <h4 class="skills_title">Html</h4>
+                        <div class="skills_progress1">
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-red w3-round-xlarge" style="width:95%">95%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills_content">
+                        <h4 class="skills_title">Css</h4>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-red w3-round-xlarge" style="width:95%">95%</div>
+                        </div>
+                    </div>
+                    <div class="skills_content">
+                        <h4 class="skills_title">Scss</h4>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-red w3-round-xlarge" style="width:95%">95%</div>
+                        </div>
+                    </div>
+                    <div class="skills_content">
+                        <h4 class="skills_title">Jquery</h4>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-red w3-round-xlarge" style="width:95%">95%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills_block_right">
+                    <div class="skills_content">
+                        <h4 class="skills_title">JavaScript</h4>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-red w3-round-xlarge" style="width:95%">95%</div>
+                        </div>
+                    </div>
+                    <div class="skills_content">
+                        <h4 class="skills_title">Node.js</h4>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-red w3-round-xlarge" style="width:95%">95%</div>
+                        </div>
+                    </div>
+                    <div class="skills_content">
+                        <h4 class="skills_title">Express.Js</h4>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-red w3-round-xlarge" style="width:95%">95%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <!--End-->
+
+<!--Contact-->
+        <a name="contact"></a>        
+        <div class="contact">
+            <div class="contact_block_left">
+                <h2 class="message_head">Leave a Message</h2>
+                <form action="/send" method="POST">
+                    <input type="text" name="name" class="messenger_name" placeholder="Name*" autocomplete="off"><br>
+                    <input type="text" name="email" class="messenger_mail" placeholder="Email*" autocomplete="off"><br>
+                    <textarea class="messenger_message" name="message" placeholder="Message*" autocomplete="off"></textarea><br>
+                    <button type="submit" class="hireMe_small" onclick="check()">Hire Me!</button>
+                </form>
+            </div>
+            <div class="contact_block_right">
+                <div class="contact_parts">
+                    <div class="icon">
+                        <i class="fas fa-home fa-4x"></i>
+                    </div>
+                    <div class="contact_info">
+                        <h4 class="contact_info_title">Location</h4>
+                        <p class="contact_info_text">75-2 Kristal Absheron,Khirdalan,Azerbaijan</p>
+                    </div>
+                </div>
+                <div class="contact_parts">
+                    <div class="icon">
+                        <i class="fab fa-telegram-plane fa-4x"></i>
+                    </div>
+                    <div class="contact_info">
+                        <h4 class="contact_info_title">Email</h4>
+                        <p class="contact_info_text">vusaldadashov99@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact_parts">
+                    <div class="icon">
+                        <i class="fas fa-phone-alt fa-4x"></i>
+                    </div>
+                    <div class="contact_info">
+                        <h4 class="contact_info_title">Toll Free Call</h4>
+                        <p class="contact_info_text">994 55 569 75 66</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End-->
+
+
+        <div class="footer">
+            <div class="footer1">
+                <a target="_blank" href="https://www.facebook.com/vusalmask"><i class="fab fa-facebook fa-2x"></i></a>
+                <a target="_blank" href="https://join.skype.com/cHLyr8XpLVRj"><i class="fab fa-skype fa-2x"></i></a>
+                <a target="_blank" href="https://linkedin.com/in/vusal-dadashov-743168185"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a target="_blank" href="https://twitter.com/Vusal29126906"><i class="fab fa-twitter-square fa-2x"></i></a>
+                <a target="_blank" href="https://www.instagram.com/vusal.dadashov_/"><i class="fab fa-instagram-square fa-2x"></i></a>
+            </div>
+            <div class="footer2">
+                <p class="copyrighted">Copyright: Vusal Dadashov, All rights reserved</p>
+            </div>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
